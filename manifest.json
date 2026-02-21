@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Political Bias Analyzer",
+  "version": "1.0",
+  "description": "Analyzes the political bias of news articles",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["popup.css"]
+    }
+  ]
+}
