@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 #bias-badge {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 999999;
-  background: #1e1e2e;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 10px;
-  font-size: 16px;
+  background: #ffffff;
+  color: #000000;
+  padding: 14px 20px;
+  border-radius: 0px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  border-left: 5px solid #f5c518;
+  min-width: 200px;
+  letter-spacing: 0.5px;
+}
+
+#bias-badge .close-btn {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.5;
   font-family: Arial, sans-serif;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-  border-left: 4px solid #7c3aed;
+  font-weight: normal;
+}
+
+#bias-badge .close-btn:hover {
+  opacity: 1;
+}
+
+#bias-badge .label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  opacity: 0.5;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 4px;
 }
